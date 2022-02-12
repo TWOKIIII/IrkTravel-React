@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.container1 {
+  display: flex;
+  position: relative;
+}
+.image {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: 0px;
+  align-self: center;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.rootClassName {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName1 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName2 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName3 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName4 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName5 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName6 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName7 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName8 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName9 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName10 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName11 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName12 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName13 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName14 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName15 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName16 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
+.rootClassName17 {
+  top: 4px;
+  flex: 0;
+  left: 10px;
+  position: absolute;
+  align-self: center;
+}
