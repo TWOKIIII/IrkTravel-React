@@ -1,9 +1,0 @@
-.container {
-  display: flex;
-  position: relative;
-}
-.icon {
-  width: 25px;
-  height: 25px;
-  margin-right: var(--dl-space-space-unit);
-}

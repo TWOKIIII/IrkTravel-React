@@ -1,9 +1,0 @@
-.container {
-  display: flex;
-  position: relative;
-}
-.Input {
-  font-size: 0.75rem;
-  border-color: var(--dl-color-gray-500);
-  border-radius: var(--dl-radius-radius-radius4);
-}
