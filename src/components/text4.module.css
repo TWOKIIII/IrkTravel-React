@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  position: relative;
+}
+@media(max-width: 767px) {
+  .text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

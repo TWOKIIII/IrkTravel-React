@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.icon {
+  width: 26px;
+  height: 26px;
+  align-self: center;
+}
