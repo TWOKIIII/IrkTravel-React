@@ -3,15 +3,12 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Text from '../components/text'
-import Text1 from '../components/text1'
-import Text2 from '../components/text2'
 import Icon8 from '../components/icon8'
 import Icon9 from '../components/icon9'
 import Icon10 from '../components/icon10'
 import styles from './home.module.css'
 import DefaultButton from "../components/DefaultButton";
-import LogoImage from "../components/LogoImage";
+import HeaderNav from "../components/HeaderNav";
 
 const Home = () => {
   return (
@@ -20,28 +17,7 @@ const Home = () => {
         <title>IrkTravel</title>
         <meta property="og:title" content="IrkTravel" />
       </Helmet>
-      <header className={styles['Header']}>
-        <Link to="/" className={styles['navlink']}>
-          <LogoImage
-            rootClassName="rootClassName"
-            className={styles['Company-logo']}
-          ></LogoImage>
-        </Link>
-        <span className={styles['Company-name']}>
-          <span className={styles['text']}>IrkTravel</span>
-        </span>
-        <nav className={styles['Nav']}>
-          <Link to="/baikalpage" className={styles['navlink1']}>
-            <Text className={styles['component']}></Text>
-          </Link>
-          <Link to="/irkutskpage" className={styles['navlink2']}>
-            <Text1 className={styles['component1']}></Text1>
-          </Link>
-          <Link to="/about-mepage" className={styles['navlink3']}>
-            <Text2 className={styles['component2']}></Text2>
-          </Link>
-        </nav>
-      </header>
+      <HeaderNav />
       <div className={styles['Body']}>
         <div className={styles['container1']}>
           <h1 className={styles['text02']}>Сибирские красоты</h1>
