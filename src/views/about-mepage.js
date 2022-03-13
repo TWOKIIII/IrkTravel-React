@@ -1,11 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Text from '../components/text'
-import Text1 from '../components/text1'
-import Text2 from '../components/text2'
 import Text8 from '../components/text8'
 import Icon8 from '../components/icon8'
 import Icon9 from '../components/icon9'
@@ -15,7 +11,7 @@ import Icon12 from '../components/icon12'
 import Icon14 from '../components/icon14'
 import Icon13 from '../components/icon13'
 import styles from './about-mepage.module.css'
-import LogoImage from "../components/LogoImage";
+import HeaderNav from "../components/HeaderNav";
 
 const AboutMepage = () => {
   return (
@@ -24,28 +20,7 @@ const AboutMepage = () => {
         <title>About Me page - IrkTravel</title>
         <meta property="og:title" content="About Me page - IrkTravel" />
       </Helmet>
-      <header className={styles['Header']}>
-        <Link to="/" className={styles['navlink']}>
-          <LogoImage
-            rootClassName="rootClassName8"
-            className={styles['Company-logo']}
-          ></LogoImage>
-        </Link>
-        <span className={styles['Company-name']}>
-          <span className={styles['text']}>IrkTravel</span>
-        </span>
-        <nav className={styles['Nav']}>
-          <Link to="/baikalpage" className={styles['navlink1']}>
-            <Text className={styles['component']}></Text>
-          </Link>
-          <Link to="/irkutskpage" className={styles['navlink2']}>
-            <Text1 className={styles['component1']}></Text1>
-          </Link>
-          <Link to="/about-mepage" className={styles['navlink3']}>
-            <Text2 className={styles['component2']}></Text2>
-          </Link>
-        </nav>
-      </header>
+      <HeaderNav />
       <div className={styles['Body']}>
         <div className={styles['container1']}>
           <div className={styles['Testimonial']}>
@@ -127,6 +102,7 @@ const AboutMepage = () => {
           </div>
         </div>
       </div>
+
       <footer className={styles['Footer']}>
         <span className={styles['Footer-text']}>
           © 2021 Gleb Liatokhov, All Rights Reserved.
