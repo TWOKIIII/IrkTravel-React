@@ -1,0 +1,9 @@
+.input-container {
+  display: flex;
+  position: relative;
+}
+.input-input {
+  font-size: 0.75rem;
+  border-color: var(--dl-color-gray-500);
+  border-radius: var(--dl-radius-radius-radius4);
+}

@@ -1,11 +1,11 @@
 import React from 'react'
 
-import styles from './text8.module.css'
+import './text8.css'
 
-const Text8 = () => {
+const Text8 = (props) => {
   return (
-    <div className={styles['container']}>
-      <span className={styles['Text']}>
+    <div className="text8-container">
+      <span className="text8-text">
         <span>Ученик сетевого лицея ИРНИТУ</span>
       </span>
     </div>

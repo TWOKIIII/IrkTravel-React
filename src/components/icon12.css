@@ -1,0 +1,10 @@
+.icon12-container {
+  display: flex;
+  position: relative;
+}
+.icon12-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}

@@ -1,0 +1,15 @@
+.component10-container {
+  display: flex;
+  position: relative;
+}
+.component10-icon {
+  width: 30px;
+  height: 30px;
+  opacity: 0.6;
+  position: relative;
+}
+.component10-root-class-name {
+  top: 10px;
+  left: 275px;
+  position: absolute;
+}

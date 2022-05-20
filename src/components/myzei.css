@@ -1,0 +1,36 @@
+.myzei-gallery-card {
+  width: 100%;
+  height: 790px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.myzei-image {
+  width: 100%;
+  height: 900px;
+  align-self: center;
+  object-fit: cover;
+}
+.myzei-text {
+  height: 30px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.myzei-text1 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+
+@media(max-width: 767px) {
+  .myzei-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .myzei-image {
+    height: 10rem;
+  }
+}

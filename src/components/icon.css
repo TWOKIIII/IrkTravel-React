@@ -1,0 +1,12 @@
+.icon-container {
+  display: flex;
+  position: relative;
+}
+.icon-link {
+  display: contents;
+}
+.icon-icon {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}

@@ -2,20 +2,18 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './baikalcard.module.css'
+import './baikalcard.css'
 
 const Baikalcard = (props) => {
   return (
-    <div
-      className={` ${styles['GalleryCard']} ${styles[props.rootClassName]} `}
-    >
+    <div className={`baikal card-gallery-card ${props.rootClassName} `}>
       <img
         src="https://cs10.pikabu.ru/post_img/2018/12/01/3/1543634349150333133.jpg"
         loading="eager"
-        className={styles['image']}
+        className="baikal card-image"
       />
-      <h2 className={styles['text']}>{props.title}</h2>
-      <span className={styles['text1']}>{props.subtitle}</span>
+      <h2 className="baikal card-text">{props.title}</h2>
+      <span className="baikal card-text1">{props.subtitle}</span>
     </div>
   )
 }

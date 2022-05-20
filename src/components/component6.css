@@ -1,0 +1,10 @@
+.component6-container {
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+}
+.component6-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}

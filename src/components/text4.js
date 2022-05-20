@@ -2,12 +2,12 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './text4.module.css'
+import './text4.css'
 
 const Text4 = (props) => {
   return (
-    <div className={styles['container']}>
-      <span className={styles['text']}>{props.text}</span>
+    <div className="text4-container">
+      <span className="text4-text">{props.text}</span>
     </div>
   )
 }

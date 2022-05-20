@@ -2,18 +2,18 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './olkhoncard.module.css'
+import './olkhoncard.css'
 
 const Olkhoncard = (props) => {
   return (
-    <div className={styles['GalleryCard']}>
+    <div className="olkhon card-gallery-card">
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Olkhonsky_District_Shamanka_Rock.jpg"
         loading="eager"
-        className={styles['image']}
+        className="olkhon card-image"
       />
-      <h2 className={styles['text']}>{props.heading}</h2>
-      <span className={styles['text1']}>{props.text}</span>
+      <h2 className="olkhon card-text">{props.heading}</h2>
+      <span className="olkhon card-text1">{props.text}</span>
     </div>
   )
 }

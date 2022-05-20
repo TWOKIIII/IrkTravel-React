@@ -1,0 +1,19 @@
+.button1-container {
+  display: flex;
+  position: relative;
+}
+.button1-button {
+  font-size: 17px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.button1-button:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}

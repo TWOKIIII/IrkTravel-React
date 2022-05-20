@@ -1,0 +1,11 @@
+.icon1-container {
+  display: flex;
+  position: relative;
+}
+.icon1-icon {
+  top: 0px;
+  left: 41px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}

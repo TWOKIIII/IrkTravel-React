@@ -1,0 +1,13 @@
+.text6-container {
+  display: flex;
+  position: relative;
+}
+.text6-text {
+  margin-left: var(--dl-space-space-twounits);
+}
+@media(max-width: 767px) {
+  .text6-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

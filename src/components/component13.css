@@ -1,0 +1,24 @@
+.component13-container {
+  display: flex;
+  position: relative;
+}
+.component13-button {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.component13-button:hover {
+  transform: scale(1.02);
+}
+@media(max-width: 479px) {
+  .component13-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}

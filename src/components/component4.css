@@ -1,0 +1,13 @@
+.component4-container {
+  display: flex;
+  position: relative;
+}
+.component4-link {
+  display: contents;
+}
+.component4-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}

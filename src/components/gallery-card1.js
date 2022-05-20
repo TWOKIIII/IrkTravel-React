@@ -2,17 +2,17 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './gallery-card1.module.css'
+import './gallery-card1.css'
 
 const GalleryCard1 = (props) => {
   return (
-    <div className={styles['GalleryCard']}>
+    <div className="gallery-card1-gallery-card">
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/f/fb/%D0%A2%D0%B0%D0%BB%D1%8C%D1%86%D1%8B_%D0%BB%D0%B5%D1%82%D0%BE%D0%BC.jpg"
-        className={styles['image']}
+        className="gallery-card1-image"
       />
-      <h2 className={styles['text']}>{props.heading}</h2>
-      <span className={styles['text1']}>{props.text}</span>
+      <h2 className="gallery-card1-text">{props.heading}</h2>
+      <span className="gallery-card1-text1">{props.text}</span>
     </div>
   )
 }

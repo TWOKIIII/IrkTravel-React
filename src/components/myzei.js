@@ -2,20 +2,18 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './myzei.module.css'
+import './myzei.css'
 
 const Myzei = (props) => {
   return (
-    <div
-      className={` ${styles['GalleryCard']} ${styles[props.rootClassName]} `}
-    >
+    <div className={`myzei-gallery-card ${props.rootClassName} `}>
       <img
         src="https://primamedia.ru/f/big/878/877771.jpg?af975e81b5cbd98916bc9fe45bb7db2f"
         loading="eager"
-        className={styles['image']}
+        className="myzei-image"
       />
-      <h2 className={styles['text']}>{props.heading}</h2>
-      <span className={styles['text1']}>{props.text}</span>
+      <h2 className="myzei-text">{props.heading}</h2>
+      <span className="myzei-text1">{props.text}</span>
     </div>
   )
 }

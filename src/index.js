@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import './style.module.css'
+import './style.css'
 import Baikalpage from './views/baikalpage'
 import Skalapage from './views/skalapage'
 import AboutMepage from './views/about-mepage'

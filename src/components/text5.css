@@ -1,0 +1,13 @@
+.text5-container {
+  display: flex;
+  position: relative;
+}
+.text5-text {
+  margin-left: var(--dl-space-space-twounits);
+}
+@media(max-width: 767px) {
+  .text5-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

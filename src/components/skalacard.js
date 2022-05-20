@@ -2,18 +2,18 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './skalacard.module.css'
+import './skalacard.css'
 
 const Skalacard = (props) => {
   return (
-    <div className={styles['GalleryCard']}>
+    <div className="skala card-gallery-card">
       <img
         src="https://www.baikal-olkhon.ru/pic/ee5ffe600301cf039f9d98b5c09b1d06/shamanka_leto5.jpg"
         loading="eager"
-        className={styles['image']}
+        className="skala card-image"
       />
-      <h2 className={styles['text']}>{props.heading}</h2>
-      <span className={styles['text1']}>{props.text}</span>
+      <h2 className="skala card-text">{props.heading}</h2>
+      <span className="skala card-text1">{props.text}</span>
     </div>
   )
 }

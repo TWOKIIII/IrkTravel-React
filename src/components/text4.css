@@ -1,0 +1,9 @@
+.text4-container {
+  display: flex;
+  position: relative;
+}
+@media(max-width: 767px) {
+  .text4-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

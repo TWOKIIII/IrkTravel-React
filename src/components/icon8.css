@@ -1,0 +1,9 @@
+.icon8-container {
+  display: flex;
+  position: relative;
+}
+.icon8-icon {
+  width: 26px;
+  height: 26px;
+  align-self: center;
+}

@@ -2,18 +2,18 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './irkutskcard.module.css'
+import './irkutskcard.css'
 
 const Irkutskcard = (props) => {
   return (
-    <div className={styles['GalleryCard']}>
+    <div className="irkutsk card-gallery-card">
       <img
         src="https://img.geliophoto.com/irkutsk2021/01_irkutsk2021.jpg"
         loading="eager"
-        className={styles['image']}
+        className="irkutsk card-image"
       />
-      <h2 className={styles['text']}>{props.heading}</h2>
-      <span className={styles['text1']}>{props.text}</span>
+      <h2 className="irkutsk card-text">{props.heading}</h2>
+      <span className="irkutsk card-text1">{props.text}</span>
     </div>
   )
 }

@@ -1,0 +1,276 @@
+.baikalpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.baikalpage-header {
+  width: 100%;
+  height: 101px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.baikalpage-navlink {
+  display: contents;
+}
+.baikalpage-company-logo {
+  text-decoration: none;
+}
+.baikalpage-company-name {
+  top: 44px;
+  left: 114px;
+  position: absolute;
+  font-size: 17px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 800;
+}
+.baikalpage-text {
+  text-align: justify;
+  text-transform: capitalize;
+}
+.baikalpage-nav {
+  top: 42.5px;
+  flex: 0 0 auto;
+  right: 32px;
+  display: flex;
+  position: absolute;
+}
+.baikalpage-navlink1 {
+  display: contents;
+}
+.baikalpage-component {
+  text-decoration: none;
+}
+.baikalpage-navlink2 {
+  display: contents;
+}
+.baikalpage-component1 {
+  text-decoration: none;
+}
+.baikalpage-navlink3 {
+  display: contents;
+}
+.baikalpage-component2 {
+  text-decoration: none;
+}
+.baikalpage-body {
+  flex: 1;
+  width: 100%;
+  height: 880px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: 100%;
+  margin-top: 0px;
+  min-height: 80vh;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient( 179.4deg,  #2196f3 1.8%, #73fff9 97.1% );;
+}
+.baikalpage-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-right: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  justify-content: center;
+}
+.baikalpage-text2 {
+  height: 114px;
+  font-size: 5rem;
+  font-style: normal;
+  text-align: left;
+  font-weight: 800;
+}
+.baikalpage-link {
+  display: contents;
+}
+.baikalpage-component3 {
+  text-decoration: none;
+}
+.baikalpage-text3 {
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.baikalpage-text4 {
+  font-style: normal;
+  font-weight: 500;
+}
+.baikalpage-btn-group {
+  width: 454px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.baikalpage-navlink4 {
+  display: contents;
+}
+.baikalpage-component4 {
+  text-decoration: none;
+}
+.baikalpage-link1 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.baikalpage-link1:hover {
+  transform: scale(1.02);
+}
+.baikalpage-baikal-image {
+  width: 670px;
+  height: 785px;
+  margin: var(--dl-space-space-halfunit);
+  align-self: center;
+  box-shadow: 3px 3px 10px 0px #000000;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.baikalpage-footer {
+  width: 100%;
+  height: 0px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.baikalpage-footer-text {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.baikalpage-icon-group {
+  top: 60px;
+  width: 139px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.baikalpage-link2 {
+  display: contents;
+}
+.baikalpage-telegram-icon {
+  text-decoration: none;
+}
+.baikalpage-link3 {
+  display: contents;
+}
+.baikalpage-v-k-icon {
+  text-decoration: none;
+}
+.baikalpage-link4 {
+  display: contents;
+}
+.baikalpage-icon {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .baikalpage-body {
+    flex-direction: column;
+  }
+  .baikalpage-container1 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .baikalpage-text2 {
+    text-align: center;
+  }
+  .baikalpage-text3 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .baikalpage-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .baikalpage-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .baikalpage-body {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .baikalpage-text3 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .baikalpage-baikal-image {
+    width: 80%;
+  }
+  .baikalpage-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .baikalpage-footer-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .baikalpage-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .baikalpage-body {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .baikalpage-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .baikalpage-btn-group {
+    flex-direction: column;
+  }
+  .baikalpage-link1 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .baikalpage-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .baikalpage-footer-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,20 @@
+.component7-container {
+  display: flex;
+  position: relative;
+}
+.component7-link {
+  display: contents;
+}
+.component7-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  align-self: stretch;
+  text-decoration: none;
+}
+.component7-root-class-name {
+  top: 25px;
+  left: 570px;
+  opacity: 0.6;
+  position: absolute;
+}

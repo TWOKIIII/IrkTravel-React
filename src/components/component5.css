@@ -1,0 +1,9 @@
+.component5-container {
+  display: flex;
+  position: relative;
+}
+.component5-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}

@@ -1,0 +1,12 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-link {
+  display: contents;
+}
+.component1-icon {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}

@@ -2,15 +2,15 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './nav.module.css'
+import './nav.css'
 
 const Nav = (props) => {
   return (
-    <nav className={styles['Nav']}>
-      <span className={styles['text']}>{props.text}</span>
-      <span className={styles['text1']}>{props.text1}</span>
-      <span className={styles['text2']}>{props.text2}</span>
-      <span className={styles['text3']}>{props.text3}</span>
+    <nav className="nav-nav">
+      <span className="nav-text">{props.text}</span>
+      <span className="nav-text1">{props.text1}</span>
+      <span className="nav-text2">{props.text2}</span>
+      <span className="nav-text3">{props.text3}</span>
     </nav>
   )
 }
